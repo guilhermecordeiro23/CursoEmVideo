@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{ /*box-level*/
+    display: block;
+    text-align: center;
+    margin: auto;
+    background-color: lightgray;
+    height: 180px;
+    width: 250px;
+    border: 5px solid darkslategray;
+    padding: 20px 10px;
+    outline: 5px dashed salmon;
+}
+a{  /*inline-level*/
+    display: inline;
+    border: 5px solid darkgray;
+}
