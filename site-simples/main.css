@@ -1,0 +1,47 @@
+:root {
+    --font: #dee4de;
+    --white: #ffffff;
+    --black: #000000;
+}
+* {
+    color: var(--fontColor);
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background: var(--bg);
+}
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+}
+li {
+    list-style: circle;
+}
+.list {
+    list-style: square;
+}
+.light-theme {
+    --bg: var(--white);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--font);
+}
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--font);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black)
+}
+.btn {
+    color: var(--btnFontColor);
+    background: var(--btnBg);
+    position: absolute;
+    top: 20px;
+    left: 300px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+btn:focus {outline-style: none;}
